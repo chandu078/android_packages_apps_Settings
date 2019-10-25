@@ -221,4 +221,7 @@
 
     <!-- Volume panel on left switch -->
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
 </resources>
