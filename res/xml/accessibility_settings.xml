@@ -97,6 +97,14 @@
             settings:searchable="true"/>
 
         <Preference
+            android:fragment="com.android.settings.accessibility.MusicHapticsSettings"
+            android:key="music_haptics_preference_screen"
+            android:icon="@drawable/ic_vibration"
+            android:persistent="false"
+            android:title="@string/music_haptics_title"
+            settings:controller="com.android.settings.accessibility.MusicHapticsPreferenceController" />
+
+        <Preference
             android:fragment="com.android.settings.accessibility.VibrationSettings"
             android:key="vibration_preference_screen"
             android:icon="@drawable/ic_vibration"

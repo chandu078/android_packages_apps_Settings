@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2026 The LineageOS Project. SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <string name="music_haptics_title">Music haptics</string>
+    <string name="music_haptics_use">Use music haptics</string>
+    <string name="music_haptics_description">Feel vibrations generated from the rhythm and energy of media playing on your phone. No app setup is needed. Some playback routes may not support haptics. Pauses during calls, alarms and Battery Saver.</string>
+    <string name="music_haptics_unavailable">Music haptics is unavailable with this device’s current audio configuration.</string>
+    <string name="music_haptics_intensity">Intensity</string>
+    <string name="music_haptics_games">Include games</string>
+    <string name="music_haptics_games_summary">Generate haptics from game audio, including sound effects</string>
+    <string name="music_haptics_play_sample">Play sample</string>
+    <string name="music_haptics_stop_sample">Stop sample</string>
+    <string name="music_haptics_sample_summary">Play a short rhythm with music haptics</string>
+    <string name="music_haptics_sample_error">Could not play the sample. Try again when other audio has stopped.</string>
+    <string name="music_haptics_on">On · Feel media from your apps</string>
+    <string name="music_haptics_off">Off</string>
+    <string-array name="music_haptics_intensity_entries">
+        <item>Light</item>
+        <item>Medium</item>
+        <item>Strong</item>
+    </string-array>
+    <string-array name="music_haptics_intensity_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

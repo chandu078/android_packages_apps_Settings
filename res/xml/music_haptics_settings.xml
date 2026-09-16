@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2026 The LineageOS Project. SPDX-License-Identifier: Apache-2.0 -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/music_haptics_title">
+    <SwitchPreferenceCompat
+        android:key="music_haptics_enabled"
+        android:persistent="false"
+        android:title="@string/music_haptics_use" />
+    <Preference
+        android:key="music_haptics_description"
+        android:selectable="false"
+        android:summary="@string/music_haptics_description" />
+    <ListPreference
+        android:key="music_haptics_intensity"
+        android:persistent="false"
+        android:title="@string/music_haptics_intensity"
+        android:entries="@array/music_haptics_intensity_entries"
+        android:entryValues="@array/music_haptics_intensity_values"
+        android:summary="%s" />
+    <SwitchPreferenceCompat
+        android:key="music_haptics_include_games"
+        android:persistent="false"
+        android:title="@string/music_haptics_games"
+        android:summary="@string/music_haptics_games_summary" />
+    <Preference
+        android:key="music_haptics_sample"
+        android:title="@string/music_haptics_play_sample"
+        android:summary="@string/music_haptics_sample_summary" />
+</PreferenceScreen>

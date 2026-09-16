@@ -413,6 +413,7 @@ public class SettingsGateway {
             ScreenTimeoutSettings.class.getName(),
             ResetNetwork.class.getName(),
             VibrationIntensitySettingsFragment.class.getName(),
+            com.android.settings.accessibility.MusicHapticsSettings.class.getName(),
             CellularSecuritySettingsFragment.class.getName(),
             AccessibilityHearingAidsFragment.class.getName(),
             HearingDevicePairingFragment.class.getName(),
